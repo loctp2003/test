@@ -73,7 +73,7 @@ public class CategoryControllers extends HttpServlet {
 		cate.setCateId(id);
 		cateService.update(cate);
 		res.sendRedirect(req.getContextPath()+"/category/listCate");
-	}
+	}//nnnnnnn
 	private void insert(HttpServletRequest req, HttpServletResponse res) throws IOException {
 		req.setCharacterEncoding("UTF-8");
 		res.setCharacterEncoding("UTF-8");
